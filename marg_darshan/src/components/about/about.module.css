@@ -6,17 +6,110 @@
     width: 940px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: seagreen;
+    background-color: rgb(229, 102, 55);
     position: relative;
+    justify-content: space-evenly;
+    gap: 100px;
+    font-size: 30px;
+    color: white;
 }
 
-.container{
+.icon{
+    
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
     position: relative;
-    width: 300px;
-    height: 190px;
+    top: 0px;
+    right: 40px;
+    
+
+}
+
+.statbox{
+    margin-left: 20px;
 }
 
 .img{
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.aboutimage{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+
+.aboutus{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.aboutdesc{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 200;;
+}
+
+.division{
+    margin-top: 50px;
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.divisionp{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.abouticon{
+    background-color: rgb(229, 102, 55);
+    border-radius: 100%;
+    width: 30px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    position: relative;
+    top: 0px;
+    right: 40px;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-left: 590px;
+    display: flex;
+    border: solid 1px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: orange;
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+.read{
+    color: white;
+    font-weight: 200;
 }

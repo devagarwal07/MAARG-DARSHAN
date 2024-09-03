@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HomePage from "@/components/homepage/HomePage";
 import About from "@/components/about/About";
+import Services from "@/components/ourservices/services";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
       </section>
       <section className={styles.content}>
         <About />
+      </section>
+      <section>
+        <Services/>
       </section>
     </>
   );
