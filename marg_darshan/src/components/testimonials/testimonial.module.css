@@ -1,0 +1,30 @@
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin-top: 80px;
+    padding-left: 0px;
+    position: relative;
+}
+
+.test{
+    background-color: white;
+    margin-left: 100px;
+    width: 700px;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

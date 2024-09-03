@@ -1,3 +1,58 @@
 .container{
     background-color: white;
+    height: 800px;
+    padding-left: 80px;
+}
+
+.title{
+    font-size: 40px;
+    color: black;
+    padding-top: 120px;
+    font-weight: bold;
+}
+
+.maincont{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.card1{
+    background-color: var(--bg);
+    width: 370px;
+    height: 470px;
+    color: white;
+    position: relative;
+}
+
+.card2{
+    background-color: rgb(229, 102, 55);
+    width: 370px;
+    height: 470px;
+    color: white;
+    position: relative;
+}
+
+.card3{
+    background-color: var(--bg);
+    width: 370px;
+    height: 470px;
+    color: white;
+    position: relative;
+}
+
+.learn{
+    display: flex;
+    justify-content: end;
+    padding-top: 440px;
+    padding-right: 40px;
+}
+
+.num{
+    color: rgb(76, 61, 61);
+    font-size: 80px;
+    position: absolute;
+    bottom: 420px;
+    font-weight: bold;
 }
