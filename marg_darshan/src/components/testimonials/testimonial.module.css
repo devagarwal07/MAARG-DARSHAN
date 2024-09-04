@@ -1,3 +1,4 @@
+
 .title{
     font-size: 40px;
     font-weight: bold;
@@ -11,15 +12,20 @@
     margin-top: 80px;
     padding-left: 0px;
     position: relative;
+    
+    
 }
 
 .test{
     background-color: white;
-    margin-left: 100px;
-    width: 700px;
-    height: 300px;
+    margin-left: 600px;
+    margin-top: 70px;
+    width: 600px;
+    height: 400px;
     border-radius: 30px;
     position: absolute;
+    
+    
 }
 
 .part{
@@ -27,4 +33,36 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.quote{
+    margin-left: 550px;
+    margin-top: -15px;
+}
+
+.started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.linkstarted{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    background-color: orange;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px seagreen;
+    margin-bottom: 20px;
+}
+
+.linkstarted:hover{
+    background-color: seagreen;
+    box-shadow: 0px 0px;
 }
