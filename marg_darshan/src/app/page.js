@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <section className={styles.container}>
         <HomePage />
-        
       </section>
       <section className={styles.content}>
         <About />
