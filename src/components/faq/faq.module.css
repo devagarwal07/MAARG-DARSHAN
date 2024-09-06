@@ -1,0 +1,55 @@
+.container{
+
+}
+
+.title{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+.cont{
+    background-color: #1E3A8A;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    display: flex;
+    flex: 1;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 120px;
+    padding-right: 150px;
+    gap: 30px;
+}
+
+.ques{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    border-radius:10px;
+    padding-left: 30px;
+}
+
+.arrow{
+    align-items: center;
+    justify-content: right;
+    padding-left: 340px;
+}
+
+.ques:hover{
+    height: 100px;
+}

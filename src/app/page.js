@@ -3,7 +3,9 @@ import HomePage from "@/components/homepage/HomePage";
 import About from "@/components/about/About";
 import Services from "@/components/ourservices/services";
 import Testimonials from "@/components/testimonials/Testimonials";
+import Faq from "@/components/faq/Faq";
 import styles from "./page.module.css";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,12 @@ export default function Home() {
       </section>
       <section>
         <Testimonials/>
+      </section>
+      <section>
+        <Faq/>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </>
   );
