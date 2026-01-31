@@ -1,8 +1,8 @@
-# Marg-Darshan 🎓
+# MAARG-DARSHAN 🎓
 
-**Discover. Learn. Enjoy** with Marg-Darshan - An Educational Counselling Platform
+**Discover. Learn. Enjoy** with MAARG-DARSHAN - An Educational Counselling Platform
 
-Marg-Darshan (meaning "Path Guidance" in Hindi) is a modern web application designed to provide educational counselling and guidance services. Built with Next.js and React, this platform offers an intuitive and engaging user experience for students seeking educational guidance.
+MAARG-DARSHAN (also styled as "Marg-Darshan", meaning "Path Guidance" in Hindi) is a modern web application designed to provide educational counselling and guidance services. Built with Next.js and React, this platform offers an intuitive and engaging user experience for students seeking educational guidance.
 
 ## 🌟 Features
 
@@ -27,7 +27,7 @@ Marg-Darshan (meaning "Path Guidance" in Hindi) is a modern web application desi
 
 Before you begin, ensure you have the following installed on your system:
 
-- **Node.js**: Version 18.0 or higher
+- **Node.js**: Version 18.17 or higher
 - **npm**: Version 9.0 or higher (comes with Node.js)
 
 You can verify your installations by running:
@@ -125,7 +125,7 @@ In the project directory, you can run:
 
 - **Homepage Text**: Edit `src/components/homepage/HomePage.jsx`
 - **About Section**: Edit `src/components/about/About.jsx`
-- **Services**: Edit `src/components/ourservices/services.jsx`
+- **Services**: Edit `src/components/ourservices/services.jsx` (note: lowercase filename)
 - **FAQ**: Edit `src/components/faq/Faq.jsx`
 
 ### Styling
@@ -167,7 +167,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to contribute to Marg-Darshan:
+Contributions are welcome! If you'd like to contribute to MAARG-DARSHAN:
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/AmazingFeature`)
